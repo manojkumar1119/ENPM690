@@ -1,0 +1,4 @@
+Invoking command in '/home/manoj/turtlebot3_ws/build/turtlebot3_fake_node': /usr/bin/cmake --build /home/manoj/turtlebot3_ws/build/turtlebot3_fake_node -- -j8 -l8
+Invoked command in '/home/manoj/turtlebot3_ws/build/turtlebot3_fake_node' returned '0': /usr/bin/cmake --build /home/manoj/turtlebot3_ws/build/turtlebot3_fake_node -- -j8 -l8
+Invoking command in '/home/manoj/turtlebot3_ws/build/turtlebot3_fake_node': /usr/bin/cmake --install /home/manoj/turtlebot3_ws/build/turtlebot3_fake_node
+Invoked command in '/home/manoj/turtlebot3_ws/build/turtlebot3_fake_node' returned '0': /usr/bin/cmake --install /home/manoj/turtlebot3_ws/build/turtlebot3_fake_node

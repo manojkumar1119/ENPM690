@@ -1,0 +1,24 @@
+[0.689s] Invoking command in '/home/manoj/ros2_ws/src/my_package': PYTHONPATH=/home/manoj/ros2_ws/build/my_package/prefix_override:/home/manoj/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/manoj/ros2_ws/build/my_package/build install --record /home/manoj/ros2_ws/build/my_package/install.log --single-version-externally-managed
+[0.902s] running egg_info
+[0.903s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[0.903s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[0.903s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[0.903s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[0.903s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[0.905s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[0.906s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[0.906s] running build
+[0.906s] running build_py
+[0.906s] copying my_package/my_node.py -> /home/manoj/ros2_ws/build/my_package/build/lib/my_package
+[0.906s] running install
+[0.907s] running install_lib
+[0.907s] copying /home/manoj/ros2_ws/build/my_package/build/lib/my_package/my_node.py -> /home/manoj/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[0.908s] byte-compiling /home/manoj/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/my_node.py to my_node.cpython-310.pyc
+[0.908s] running install_data
+[0.909s] running install_egg_info
+[0.910s] removing '/home/manoj/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info' (and everything under it)
+[0.911s] Copying ../../build/my_package/my_package.egg-info to /home/manoj/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[0.911s] running install_scripts
+[0.929s] Installing my_node script to /home/manoj/ros2_ws/install/my_package/lib/my_package
+[0.929s] writing list of installed files to '/home/manoj/ros2_ws/build/my_package/install.log'
+[0.955s] Invoked command in '/home/manoj/ros2_ws/src/my_package' returned '0': PYTHONPATH=/home/manoj/ros2_ws/build/my_package/prefix_override:/home/manoj/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/manoj/ros2_ws/build/my_package/build install --record /home/manoj/ros2_ws/build/my_package/install.log --single-version-externally-managed

@@ -1,0 +1,21 @@
+[3.273s] Invoking command in '/home/manoj/ros2_ws/src/my_package': PYTHONPATH=/home/manoj/ros2_ws/src/my_package/build/my_package/prefix_override:/home/manoj/ros2_ws/src/my_package/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/my_package build --build-base /home/manoj/ros2_ws/src/my_package/build/my_package/build install --record /home/manoj/ros2_ws/src/my_package/build/my_package/install.log --single-version-externally-managed
+[4.702s] running egg_info
+[4.709s] writing build/my_package/my_package.egg-info/PKG-INFO
+[4.710s] writing dependency_links to build/my_package/my_package.egg-info/dependency_links.txt
+[4.710s] writing entry points to build/my_package/my_package.egg-info/entry_points.txt
+[4.710s] writing requirements to build/my_package/my_package.egg-info/requires.txt
+[4.711s] writing top-level names to build/my_package/my_package.egg-info/top_level.txt
+[4.724s] reading manifest file 'build/my_package/my_package.egg-info/SOURCES.txt'
+[4.727s] writing manifest file 'build/my_package/my_package.egg-info/SOURCES.txt'
+[4.728s] running build
+[4.728s] running build_py
+[4.729s] running install
+[4.729s] running install_lib
+[4.740s] running install_data
+[4.742s] running install_egg_info
+[4.745s] removing '/home/manoj/ros2_ws/src/my_package/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info' (and everything under it)
+[4.750s] Copying build/my_package/my_package.egg-info to /home/manoj/ros2_ws/src/my_package/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[4.758s] running install_scripts
+[4.875s] Installing my_node script to /home/manoj/ros2_ws/src/my_package/install/my_package/lib/my_package
+[4.878s] writing list of installed files to '/home/manoj/ros2_ws/src/my_package/build/my_package/install.log'
+[5.083s] Invoked command in '/home/manoj/ros2_ws/src/my_package' returned '0': PYTHONPATH=/home/manoj/ros2_ws/src/my_package/build/my_package/prefix_override:/home/manoj/ros2_ws/src/my_package/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/my_package build --build-base /home/manoj/ros2_ws/src/my_package/build/my_package/build install --record /home/manoj/ros2_ws/src/my_package/build/my_package/install.log --single-version-externally-managed

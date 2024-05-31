@@ -1,0 +1,79 @@
+[0.000000] (-) TimerEvent: {}
+[0.004947] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.007042] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.100425] (-) TimerEvent: {}
+[0.203395] (-) TimerEvent: {}
+[0.305113] (-) TimerEvent: {}
+[0.411547] (-) TimerEvent: {}
+[0.512378] (-) TimerEvent: {}
+[0.614545] (-) TimerEvent: {}
+[0.716503] (-) TimerEvent: {}
+[0.816936] (-) TimerEvent: {}
+[0.919441] (-) TimerEvent: {}
+[1.020885] (-) TimerEvent: {}
+[1.121698] (-) TimerEvent: {}
+[1.226217] (-) TimerEvent: {}
+[1.327343] (-) TimerEvent: {}
+[1.429440] (-) TimerEvent: {}
+[1.530911] (-) TimerEvent: {}
+[1.631493] (-) TimerEvent: {}
+[1.734108] (-) TimerEvent: {}
+[1.835123] (-) TimerEvent: {}
+[1.935618] (-) TimerEvent: {}
+[2.036879] (-) TimerEvent: {}
+[2.140930] (-) TimerEvent: {}
+[2.241554] (-) TimerEvent: {}
+[2.344148] (-) TimerEvent: {}
+[2.444860] (-) TimerEvent: {}
+[2.545584] (-) TimerEvent: {}
+[2.649986] (-) TimerEvent: {}
+[2.751084] (-) TimerEvent: {}
+[2.852586] (-) TimerEvent: {}
+[2.956065] (-) TimerEvent: {}
+[3.056848] (-) TimerEvent: {}
+[3.157989] (-) TimerEvent: {}
+[3.259797] (-) TimerEvent: {}
+[3.277132] (my_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', 'build/my_package', 'build', '--build-base', '/home/manoj/ros2_ws/src/my_package/build/my_package/build', 'install', '--record', '/home/manoj/ros2_ws/src/my_package/build/my_package/install.log', '--single-version-externally-managed'], 'cwd': '/home/manoj/ros2_ws/src/my_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'manoj', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/manoj', 'OLDPWD': '/home/manoj/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3603', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/manoj/ros2_ws/src/my_package/install:/home/manoj/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'manoj', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'manoj', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models::/home/manoj/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/models/', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/home/manoj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Manoj:@/tmp/.ICE-unix/1527,unix/Manoj:/tmp/.ICE-unix/1527', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/844b52bc_9e3c_4a50_8bb4_c69e0f41d561', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ZU39J2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.117', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/manoj/ros2_ws/src/my_package/install/my_package:/home/manoj/turtlebot3_ws/install/turtlebot3_simulations:/home/manoj/turtlebot3_ws/install/turtlebot3_gazebo:/home/manoj/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/manoj/ros2_ws/src/my_package/build/my_package', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/manoj/ros2_ws/src/my_package/build/my_package/prefix_override:/home/manoj/ros2_ws/src/my_package/install/my_package/lib/python3.10/site-packages:/home/manoj/ros2_ws/src/my_package/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/manoj/turtlebot3_ws/install/turtlebot3_simulations:/home/manoj/turtlebot3_ws/install/turtlebot3_gazebo:/home/manoj/turtlebot3_ws/install/turtlebot3_fake_node'}, 'shell': False}
+[3.359722] (-) TimerEvent: {}
+[3.460538] (-) TimerEvent: {}
+[3.564522] (-) TimerEvent: {}
+[3.665769] (-) TimerEvent: {}
+[3.766766] (-) TimerEvent: {}
+[3.868278] (-) TimerEvent: {}
+[3.969608] (-) TimerEvent: {}
+[4.070498] (-) TimerEvent: {}
+[4.172896] (-) TimerEvent: {}
+[4.273231] (-) TimerEvent: {}
+[4.375264] (-) TimerEvent: {}
+[4.477052] (-) TimerEvent: {}
+[4.577903] (-) TimerEvent: {}
+[4.681243] (-) TimerEvent: {}
+[4.705733] (my_package) StdoutLine: {'line': b'running egg_info\n'}
+[4.716706] (my_package) StdoutLine: {'line': b'writing build/my_package/my_package.egg-info/PKG-INFO\n'}
+[4.717227] (my_package) StdoutLine: {'line': b'writing dependency_links to build/my_package/my_package.egg-info/dependency_links.txt\n'}
+[4.717512] (my_package) StdoutLine: {'line': b'writing entry points to build/my_package/my_package.egg-info/entry_points.txt\n'}
+[4.717749] (my_package) StdoutLine: {'line': b'writing requirements to build/my_package/my_package.egg-info/requires.txt\n'}
+[4.718012] (my_package) StdoutLine: {'line': b'writing top-level names to build/my_package/my_package.egg-info/top_level.txt\n'}
+[4.730850] (my_package) StdoutLine: {'line': b"reading manifest file 'build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[4.734406] (my_package) StdoutLine: {'line': b"writing manifest file 'build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[4.735077] (my_package) StdoutLine: {'line': b'running build\n'}
+[4.735601] (my_package) StdoutLine: {'line': b'running build_py\n'}
+[4.736042] (my_package) StdoutLine: {'line': b'running install\n'}
+[4.736711] (my_package) StdoutLine: {'line': b'running install_lib\n'}
+[4.747646] (my_package) StdoutLine: {'line': b'running install_data\n'}
+[4.749254] (my_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.752706] (my_package) StdoutLine: {'line': b"removing '/home/manoj/ros2_ws/src/my_package/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.754205] (my_package) StdoutLine: {'line': b'Copying build/my_package/my_package.egg-info to /home/manoj/ros2_ws/src/my_package/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info\n'}
+[4.765854] (my_package) StdoutLine: {'line': b'running install_scripts\n'}
+[4.781579] (-) TimerEvent: {}
+[4.882156] (my_package) StdoutLine: {'line': b'Installing my_node script to /home/manoj/ros2_ws/src/my_package/install/my_package/lib/my_package\n'}
+[4.882782] (-) TimerEvent: {}
+[4.884030] (my_package) StdoutLine: {'line': b"writing list of installed files to '/home/manoj/ros2_ws/src/my_package/build/my_package/install.log'\n"}
+[4.984207] (-) TimerEvent: {}
+[5.088840] (-) TimerEvent: {}
+[5.090014] (my_package) CommandEnded: {'returncode': 0}
+[5.190651] (-) TimerEvent: {}
+[5.293453] (-) TimerEvent: {}
+[5.394471] (-) TimerEvent: {}
+[5.486111] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[5.489804] (-) EventReactorShutdown: {}

@@ -1,0 +1,4 @@
+Invoking command in '/home/manoj/turtlebot3_ws/build/turtlebot3_gazebo': /usr/bin/cmake --build /home/manoj/turtlebot3_ws/build/turtlebot3_gazebo -- -j8 -l8
+Invoked command in '/home/manoj/turtlebot3_ws/build/turtlebot3_gazebo' returned '0': /usr/bin/cmake --build /home/manoj/turtlebot3_ws/build/turtlebot3_gazebo -- -j8 -l8
+Invoking command in '/home/manoj/turtlebot3_ws/build/turtlebot3_gazebo': /usr/bin/cmake --install /home/manoj/turtlebot3_ws/build/turtlebot3_gazebo
+Invoked command in '/home/manoj/turtlebot3_ws/build/turtlebot3_gazebo' returned '0': /usr/bin/cmake --install /home/manoj/turtlebot3_ws/build/turtlebot3_gazebo
