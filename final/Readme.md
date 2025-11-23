@@ -86,7 +86,7 @@ python3 Q-learning.py
 
 **Outputs**:
 - A bar plot showing steps required per goal
-![Steps per Goal](./images/plot2.png)
+  ![Steps per Goal](./images/plot2.png)
 
 **Notes**:
 - Initial learning may take time as the Q-table builds
@@ -117,7 +117,7 @@ python3 dqn_train.py
 
 **Outputs**:
 - Plots for total rewards per episode and exploration rate decay
-![Steps per Goal](./images/plot4.png)
+- ![Steps per Goal](./images/plot4.png)
 
 **Training time**: ~10-30 minutes depending on hardware (CPU/GPU)
 
@@ -182,7 +182,6 @@ See the presentation for detailed plots and architecture diagrams.
 - `dqn_model_train.pth`: Pre-trained DQL model (generated after training)
 
 ---
-
 ## Limitations and Future Work
 
 ### Current Limitations
