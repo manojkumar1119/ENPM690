@@ -18,8 +18,6 @@ The project compares the performance of both methods across 25 predefined goal p
 - **PyTorch** for the DQL neural network
 - **OpenCV** for video output
 
----
-
 ## Key Features
 
 ### Environment
@@ -29,6 +27,8 @@ The project compares the performance of both methods across 25 predefined goal p
   - Dynamic obstacles (orange) - move randomly
   - Agent (blue)
   - Goal (green)
+
+  ![Environment map](./images/plot1.png)
 
 ### Sensors
 - 8 ray sensors around the agent
@@ -54,6 +54,7 @@ The project compares the performance of both methods across 25 predefined goal p
   - Testing: 25 episodes with predefined goals
 
 ### Outputs
+![Output Plot](./images/plot1.png)
 
 
 ---
@@ -93,6 +94,7 @@ python3 Q-learning.py
 
 **Outputs**:
 - A bar plot showing steps required per goal
+  ![Steps per Goal](./images/plot2.png)
 
 **Notes**:
 - Initial learning may take time as the Q-table builds
@@ -105,6 +107,7 @@ python3 Q-learning.py
 #### Training
 
 Run to train the model over 10,000 episodes with random goals.
+![Steps per Goal](./images/plot3.png)
 
 **Command**:
 ```bash
@@ -122,6 +125,7 @@ python3 dqn_train.py
 
 **Outputs**:
 - Plots for total rewards per episode and exploration rate decay
+  ![Steps per Goal](./images/plot4.png)
 
 **Training time**: ~10-30 minutes depending on hardware (CPU/GPU)
 
@@ -139,8 +143,6 @@ python3 dqn_test.py
 - Simulates 25 episodes, moving dynamic obstacles randomly
 - Visualizes in Pygame and saves frames as `output.mp4`
 
-**Outputs**:
-- Plots for total rewards, steps per episode, and a bar chart of steps per goal
 ## Demo Video
 
 [Watch the Demo Video](./output(2).mp4)
