@@ -28,7 +28,7 @@ The project compares the performance of both methods across 25 predefined goal p
   - Agent (blue)
   - Goal (green)
 
-  ![Environment map](./images/plot1.png)
+![Environment map](./images/plot1.png)
 
 ### Sensors
 - 8 ray sensors around the agent
@@ -51,13 +51,7 @@ The project compares the performance of both methods across 25 predefined goal p
 - **Q-Learning**: Trains on-the-fly during simulation
 - **DQL**: 
   - Training: 10,000 episodes
-  - Testing: 25 episodes with predefined goals
-
-### Outputs
-![Output Plot](./images/plot1.png)
-
-
----
+  - Testing: 25 episodes with predefined goal
 
 ## Requirements
 
@@ -73,8 +67,6 @@ The project compares the performance of both methods across 25 predefined goal p
 - `cv2` (OpenCV): For saving simulation frames as video (in DQL testing)
 - `collections` (built-in): For deque in replay buffer
 - `random` (built-in): For random actions and obstacle movements
-
----
 
 ## Usage
 
@@ -94,7 +86,7 @@ python3 Q-learning.py
 
 **Outputs**:
 - A bar plot showing steps required per goal
-  ![Steps per Goal](./images/plot2.png)
+![Steps per Goal](./images/plot2.png)
 
 **Notes**:
 - Initial learning may take time as the Q-table builds
@@ -125,7 +117,7 @@ python3 dqn_train.py
 
 **Outputs**:
 - Plots for total rewards per episode and exploration rate decay
-  ![Steps per Goal](./images/plot4.png)
+![Steps per Goal](./images/plot4.png)
 
 **Training time**: ~10-30 minutes depending on hardware (CPU/GPU)
 
@@ -147,8 +139,6 @@ python3 dqn_test.py
 
 [Watch the Demo Video](./output(2).mp4)
 
----
-
 ## Predefined Goals
 
 The following 25 goals are used for comparison in both Q-Learning and DQL:
@@ -159,9 +149,6 @@ The following 25 goals are used for comparison in both Q-Learning and DQL:
  (15, 14), (17, 5), (0, 15), (1, 7), (2, 1), (16, 19), (19, 3), (4, 2), 
  (4, 1)]
 ```
-
----
-
 ## Results and Comparison
 
 ### Q-Learning
