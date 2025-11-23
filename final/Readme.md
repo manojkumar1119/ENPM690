@@ -98,7 +98,8 @@ python3 Q-learning.py
 
 #### Training
 
--Run to train the model over 10,000 episodes with random goals.
+-Run to train the model over 10,000 episodes with random goals.   
+
 -![Steps per Goal](./images/plot3.png)   
 
 **Command**:
